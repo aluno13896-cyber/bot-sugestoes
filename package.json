@@ -1,0 +1,15 @@
+{
+  "name": "bot-sugestoes",
+  "version": "1.0.0",
+  "description": "Bot de sugestões para Discord via Vercel",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js",
+    "register": "node register.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord-interactions": "^0.6.0"
+  }
+}
