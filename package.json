@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "register": "node register.js"
+  },
   "dependencies": {
     "axios": "latest",
     "discord-interactions": "latest"
